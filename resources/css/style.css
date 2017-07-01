@@ -13,6 +13,15 @@ h2 {
   text-transform: capitalize;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  font-size: 18px;
+  color: white;
+}
+
 div.header {
   background: url("../images/the-flatiron-building.png") no-repeat scroll center;
 }
@@ -22,17 +31,8 @@ div.header h1 {
   color: white;
 }
 
-div.header ul {
-  list-style: none;
-}
-
 div.header ul li {
   line-height: 30px;
-}
-
-div.header a {
-  font-size: 18px;
-  color: white;
 }
 
 div.our-process h1 {
@@ -45,6 +45,20 @@ div.box-item h2 {
 
 div.box-item p {
   font-size: 14px;
+}
+
+div.footer {
+  background-color: dimgray;
+  text-align: left;
+}
+
+div.footer ul li {
+  display: inline;
+}
+
+span.copyright {
+  font-size: 11px;
+  color: white;
 }
 
 #designed-in-new-york {
