@@ -5,7 +5,11 @@ html {
 
 h1 {
   font-weight: bold;
-  color: white;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-weight: bold;
   text-transform: capitalize;
 }
 
@@ -15,6 +19,7 @@ div.header {
 
 div.header h1 {
   font-size: 70px;
+  color: white;
 }
 
 div.header ul {
@@ -30,10 +35,23 @@ div.header a {
   color: white;
 }
 
+div.our-process h1 {
+  font-size: 32px;
+}
+
+div.process-item h2 {
+  font-size: 23px;
+}
+
+div.process-item p {
+  font-size: 14px;
+}
+
 #designed-in-new-york {
   background: url("../images/the-flatiron-building.png") no-repeat scroll center;
 }
 
 #designed-in-new-york h1 {
   font-size: 23px;
+  color: white;
 }
